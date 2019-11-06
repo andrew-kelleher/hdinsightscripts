@@ -1,0 +1,21 @@
+{
+    "$schema":"https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion":"1.0.0.0",
+    "parameters":{
+        "clusterName":{
+            "value":"ak1testhdcluster"
+        },
+        "clusterLoginUserName":{
+            "value":"clusteradmin"
+        },
+        "clusterLoginPassword":{
+            "value":"yourpwd1Here!"
+        },
+        "sshUserName":{
+            "value":"clusteradmin"
+        },
+        "sshPassword":{
+            "value":"yourpwd1Here!"
+        }
+    }
+}
